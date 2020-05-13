@@ -1,4 +1,4 @@
-# ebike_model
+# Advanced Range Estimation of an E-Bike/Pedelec
 ## Introduction
 This simulink model aims at modelling of energy requirements for an ebike/Pedelec
 
