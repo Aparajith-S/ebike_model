@@ -13,10 +13,15 @@ Toolboxes required: Basic inbuilt toolboxes are sufficient
  - `run_sim.m` is the main file that needs to be run from `MATLAB`.
  - `run_sim.m` also runs the file `prepare_sim` which does the extraction of .gpx data as a time-series distribution of elevation and x , y  information.
  - `loadgpx.m` is a specific implementation serving the information requirement for this project. this is not a general purpose implementation and is used for demonstration. However, programmers can extend this to serve their needs.
+ 
  `track` is a Nx6 array where each row is a track point
+ 
  `Columns 1-3` are the X, Y, and Z coordinates
+ 
  `Column  4` is the distance between the track point and its predecessor in km
+ 
  `Column  5` is the cumulative track length in km
+ 
  `Column  6` is the slope between a track point and its predecessor in percent (%).
  
  - `plot_track` plots a rudimentary 3D plot of the route based on the x, y , elevation information deciphered from the .gpx file.
